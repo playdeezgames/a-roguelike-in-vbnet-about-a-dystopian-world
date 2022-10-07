@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stuff", "Stuff", "{F831C917
 		..\shippit.sh = ..\shippit.sh
 	EndProjectSection
 EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dystopia.Game", "Dystopia.Game\Dystopia.Game.vbproj", "{B19AF523-4B1D-4E6D-A55E-F10C3AB7DAE4}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Dystopia.Game.Tests", "Dystopia.Game.Tests\Dystopia.Game.Tests.vbproj", "{2B25A7BC-E4D2-49C3-A2D9-0A37A32E9453}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B19AF523-4B1D-4E6D-A55E-F10C3AB7DAE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B19AF523-4B1D-4E6D-A55E-F10C3AB7DAE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B19AF523-4B1D-4E6D-A55E-F10C3AB7DAE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B19AF523-4B1D-4E6D-A55E-F10C3AB7DAE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B25A7BC-E4D2-49C3-A2D9-0A37A32E9453}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B25A7BC-E4D2-49C3-A2D9-0A37A32E9453}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B25A7BC-E4D2-49C3-A2D9-0A37A32E9453}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B25A7BC-E4D2-49C3-A2D9-0A37A32E9453}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
