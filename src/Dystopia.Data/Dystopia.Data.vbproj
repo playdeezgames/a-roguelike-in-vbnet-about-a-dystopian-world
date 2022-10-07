@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <RootNamespace>Dystopia.Game</RootNamespace>
+    <RootNamespace>Dystopia.Data</RootNamespace>
     <TargetFramework>netstandard2.1</TargetFramework>
     <OptionStrict>On</OptionStrict>
   </PropertyGroup>
@@ -13,13 +13,5 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Dystopia.Data\Dystopia.Data.vbproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Import Include="Dystopia.Data" />
-  </ItemGroup>
 
 </Project>

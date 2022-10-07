@@ -10,7 +10,7 @@
 				Case QuitText
 					done = ConfirmProcessor.Run("Are you sure you want to quit?")
 				Case StartGameText
-					StartGameProcessor.Run(New World())
+					StartGameProcessor.Run(New World(New WorldData))
 			End Select
 		End While
 	End Sub

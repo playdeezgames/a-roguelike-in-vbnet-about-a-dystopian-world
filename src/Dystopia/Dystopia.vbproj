@@ -20,6 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Import Include="Dystopia.Data" />
     <Import Include="Dystopia.Game" />
     <Import Include="Spectre.Console" />
   </ItemGroup>
