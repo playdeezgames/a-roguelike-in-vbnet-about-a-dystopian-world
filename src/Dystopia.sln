@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "Dystopia", "Dystopia\Dystopia.vbproj", "{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Stuff", "Stuff", "{F831C917-2D1C-439D-AFBF-021AD4586B9F}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+		..\shippit.sh = ..\shippit.sh
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{701CEEF9-C8F1-43B7-87D9-D0E1D1DD88CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {181B9E1A-EE15-4771-A326-F0A3AE9B43D6}
+	EndGlobalSection
+EndGlobal
